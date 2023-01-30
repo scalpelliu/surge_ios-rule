@@ -1,0 +1,4 @@
+#!name= Genshin
+#!desc= Genshin Impact Asia Server proxy
+[Rule]
+OR,((AND,((IP-ASN,45102,no-resolve), (DEST-PORT,22102))), (AND,((IP-ASN,45102,no-resolve), (DEST-PORT,22101)))),🇯🇵 Japan
